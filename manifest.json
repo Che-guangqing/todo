@@ -1,5 +1,5 @@
 {
-    "name" : "todo",
+    "name" : "to-do",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -9,7 +9,6 @@
     "app-plus" : {
         "usingComponents" : true,
         "nvueCompiler" : "uni-app",
-        "compilerVersion" : 3,
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
             "waiting" : true,
@@ -72,7 +71,19 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
-        "enable": false
+    "h5" : {
+        "title" : "to-do",
+        "router" : {
+            "mode" : "history",
+            "base" : "/h5/"
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : false
+            }
+        },
+        "sdkConfigs" : {
+            "maps" : {}
+        }
     }
 }

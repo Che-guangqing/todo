@@ -7,9 +7,9 @@
     "urlCheck": false
   },
   "compileType": "miniprogram",
-  "libVersion": "",
+  "libVersion": "2.9.2",
   "appid": "touristappid",
-  "projectname": "todo",
+  "projectname": "to-do",
   "condition": {
     "search": {
       "current": -1,
